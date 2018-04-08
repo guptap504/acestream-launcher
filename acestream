@@ -1,0 +1,3 @@
+#! /bin/bash
+
+python3 /opt/acestream-launcher/acestream.py $1
