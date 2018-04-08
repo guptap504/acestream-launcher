@@ -10,7 +10,7 @@ def dockerRunning():
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage:", "myscript...[acestream URl]", sep='\n')
+        print("Usage:", "acestream...[acestream URL]", sep='\n')
         exit()
     if dockerRunning() is not True:
         print("Please run 'sudo docker run -t -p 8000:8000 ikatson/aceproxy' and try again")
